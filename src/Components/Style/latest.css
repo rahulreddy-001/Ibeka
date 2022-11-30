@@ -1,0 +1,6 @@
+.wrapper-latest{
+    background-image: url(https://www.sony.co.in/image/e685e97f64b37ec5a5ca09a77c79433b?fmt=png-alpha&wid=2000&qlt=85);
+    padding: 20px;
+    display: flex;
+    overflow-x: scroll;
+}

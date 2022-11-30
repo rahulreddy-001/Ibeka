@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+}
+.options{
+    display: flex;
+}
+.icon{
+    margin: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width :500px) {
+    .header{
+        padding: 2px 20px;
+    }
+    .icon{
+        margin: 10px;
+    }
+}
