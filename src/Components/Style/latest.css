@@ -1,6 +1,12 @@
-.wrapper-latest{
-    background-image: url(https://www.sony.co.in/image/e685e97f64b37ec5a5ca09a77c79433b?fmt=png-alpha&wid=2000&qlt=85);
-    padding: 20px;
-    display: flex;
-    overflow-x: scroll;
+.items-wrapper {
+  padding: 20px;
+}
+.items-wrapper h1 {
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.items {
+  display: flex;
+  overflow-x: scroll;
 }
